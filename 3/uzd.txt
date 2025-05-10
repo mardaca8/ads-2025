@@ -1,0 +1,11 @@
+1.	Savitarnos kavinė (ADT: stekas, ilgas sveikas skaičius). 
+
+    Procesas: klientai ateina į kavinę pasiima lėkštę iš stirtos, įsideda maisto, pavalgo, nešvarias lėkštes deda į indų plovimo mašiną, kuri švarias lėkštes deda atgal į stirtą. 
+
+    Tikslas: patyrinėti, kiek lėkščių reikėtų įsigyti kavinei (pageidautina, kad apie 10 procentų lėkščių būtų nenaudojamos, nes šiame modelyje nenumatyta sudaužimo galimybė). 
+
+    Pradiniai duomenys: lėkščių skaičius, kliento pavalgymo laikas, kliento atvykimo tikimybė (galima realizacija: generuojamas atsitiktinis skaičius ir tikrinama, ar jis tenkina tam tikrą sąlygą), 
+lėkštės plovimo laikas (indų plovimo mašinos pajėgumai neriboti, t.y. plaunamų lėkščių skaičius neturi įtakos lėkštės išplovimo laikui). 
+
+    Rezultatai: statistika kažkuriam  (vartotojo nurodytam) laiko momentui, pavyzdžiui, vidutinis ir minimalus švarių lėkščių skaičius stirtoje (turėtų būti numatyta ir išskirtinė situacija; 
+su pateiktais pradiniais duomenimis susidaro situacija, kad atėjęs klientas neranda švarios lėkštės).
